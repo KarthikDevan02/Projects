@@ -1,0 +1,6 @@
+<div>
+  <h2>Angular CLI Statistics</h2>
+  <p>Stars: {{ stats?.stars }}</p>
+  <p>Forks: {{ stats?.forks }}</p>
+  <p>Open Issues: {{ stats?.openIssues }}</p>
+</div>
