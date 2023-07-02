@@ -1,0 +1,7 @@
+public class Datacenter {
+    private static VirtualMachine[] vms;
+
+    public static VirtualMachine getVM(int index) {
+        return vms[index];
+    }
+}
