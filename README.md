@@ -1,3 +1,4 @@
+
 Project Overview:
 The GitHub Statistics for Angular CLI, Angular Maps, and Flask project is a comprehensive analysis that delves into the usage, popularity, and community engagement surrounding these three technologies. By extracting key metrics from relevant GitHub repositories, this project offers valuable insights for developers and enthusiasts.
 
@@ -20,3 +21,4 @@ Assists developers in identifying trending libraries, frameworks, and tools with
 Offers insights into the adoption and growth of Flask as a web development framework.
 Helps stakeholders make informed decisions regarding technology choices based on community engagement and usage trends.
 Serves as a valuable resource for research, analysis, and exploration of these technologies.# Projects
+![Screenshot 2023-07-01 230021](https://github.com/Karthik88-Metzada/Projects/assets/44802832/f40e6938-5d8a-4500-a785-59b417487206)
