@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: secure-multi-tenancy-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: secure-multi-tenancy-app
+  template:
+    metadata:
+      labels:
+        app: secure-multi-tenancy-app
+    spec:
+      containers:
+        - name: app
+          image: secure-multi-tenancy-app:latest
+          ports:
+            - containerPort: 8080

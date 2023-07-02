@@ -1,0 +1,8 @@
+class EncryptionManager:
+    def encrypt(self, data):
+        # Implement encryption logic
+        pass
+
+    def decrypt(self, encrypted_data):
+        # Implement decryption logic
+        pass
