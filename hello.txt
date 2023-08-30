@@ -1,1 +1,7 @@
-hello
+Hello, world!
+<<<<<<< HEAD
+This is a change from feature-branch.
+=======
+This is a change from main.
+>>>>>>> b72e77c... Updated README with project details
+
