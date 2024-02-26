@@ -6,7 +6,7 @@ import logging_config
 # Define the Flask application with the name "SecureAPI"
 app = Flask("SecureAPI")
 
-# Dummy SQL database to store roles and permissions
+# SQL database to store roles and permissions
 sql_db = {
     "roles": {
         "Raul": ["admin"],
