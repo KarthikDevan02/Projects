@@ -1,0 +1,12 @@
+class Authorizer:
+    def __init__(self, user):
+        self.user = user
+
+    def has_access(self, resource):
+        # Check if the user has access to the specified resource
+        pass
+
+class Role:
+    def __init__(self, name, permissions):
+        self.name = name
+        self.permissions = permissions
