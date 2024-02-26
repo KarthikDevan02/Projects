@@ -43,10 +43,10 @@ Optimize performance for real-time applications.
 Conduct further testing and validation to ensure robustness and compliance.
 
 
-Dependencies
-Python 3.x
-NumPy
-Matplotlib
+Dependencies:-
+Python 3.x,
+NumPy,
+Matplotlib,
 TensorFlow/Keras (for autoencoder training)
 
 ![Capture9](https://github.com/Rustyryan-11/Projects/assets/44802832/3e716ed3-fd8e-45ce-94fe-4090177638e4)
