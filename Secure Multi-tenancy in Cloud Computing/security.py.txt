@@ -1,9 +1,0 @@
-from tenants import TenantRepository
-
-tenant_repository = TenantRepository()
-
-def create_tenant(name):
-    tenant_repository.create_tenant(name)
-
-def get_tenant(name):
-    return tenant_repository.get_tenant_by_name(name)
