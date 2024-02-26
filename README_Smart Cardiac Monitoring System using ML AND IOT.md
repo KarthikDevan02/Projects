@@ -44,8 +44,6 @@ The Smart Cardiac Monitoring System demonstrated the potential of IoT and machin
 
 ![Capture1](https://github.com/Rustyryan-11/Projects/assets/44802832/d45d6562-86ca-46b8-91a9-155eb45f5b3f)
 
-![Capture](https://github.com/Rustyryan-11/Projects/assets/44802832/5600ad0d-2181-4a23-b58e-d3afa8b4e2b4)
-
 ![Capture 4](https://github.com/Rustyryan-11/Projects/assets/44802832/9e548fcc-3b0b-4547-b6c3-3a51b2ffde94)
 
 ![Capture 2](https://github.com/Rustyryan-11/Projects/assets/44802832/4a3f3194-7d54-4c77-bc90-0652d06ce327)
