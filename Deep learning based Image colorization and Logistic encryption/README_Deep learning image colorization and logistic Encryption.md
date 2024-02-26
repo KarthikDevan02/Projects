@@ -1,4 +1,4 @@
-### Image Encryption for Facial Recognition Systems
+# Image Encryption for Facial Recognition Systems
 ## Overview
 This project explores the use of image encryption techniques to enhance the security of facial recognition systems. By encrypting images, we aim to protect sensitive data from unauthorized access and tampering.
 
@@ -26,15 +26,15 @@ Visualization:
 Displayed the original grayscale image, encrypted images, and decrypted images using matplotlib.
 
 ## Problems Addressed
-Security: Protecting sensitive image data from unauthorized access or tampering.
-Data Integrity: Ensuring that encrypted images can be accurately decrypted without compromising data integrity.
-Regulatory Compliance: Adhering to regulatory requirements regarding the encryption of sensitive data.
+### Security: Protecting sensitive image data from unauthorized access or tampering.
+### Data Integrity: Ensuring that encrypted images can be accurately decrypted without compromising data integrity.
+### Regulatory Compliance: Adhering to regulatory requirements regarding the encryption of sensitive data.
 Considerations
-Key Management: Ensure proper management of encryption keys to maintain security.
-Algorithm Selection: Use well-established and cryptographically secure encryption algorithms.
-Performance Overhead: Be mindful of computational overhead introduced by encryption and decryption processes, especially in real-time applications.
-Data Integrity: Verify that encrypted images can be decrypted accurately to preserve data integrity.
-Regulatory Compliance: Ensure compliance with regulatory requirements regarding data encryption.
+### Key Management: Ensure proper management of encryption keys to maintain security.
+### Algorithm Selection: Use well-established and cryptographically secure encryption algorithms.
+### Performance Overhead: Be mindful of computational overhead introduced by encryption and decryption processes, especially in real-time applications.
+### Data Integrity: Verify that encrypted images can be decrypted accurately to preserve data integrity.
+### Regulatory Compliance: Ensure compliance with regulatory requirements regarding data encryption.
 
 
 ## Future Work
