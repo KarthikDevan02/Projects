@@ -1,24 +1,15 @@
 
-Certainly! Below is a README file created from the provided information:
 
 Android Malware Analysis Research Project
 Authors:
 Karthik Devan
 Andrews Acheampong
+
+
 Abstract:
 The proliferation of Android malware presents a significant risk to users' security and privacy worldwide. This research paper presents a comprehensive analysis of Android malware detection and classification using machine learning techniques based on both static and dynamic features of applications. The approach combines permissions-based static analysis and network traffic-based dynamic analysis to provide a holistic understanding of Android malware behavior, ultimately enhancing the effectiveness of detection and classification.
 
-Table of Contents:
-Introduction
-Literature Review
-Background and Related Work
-Problem Statement and Challenges
-Proposed Solution
-Results and Observations
-Conclusion
-Contributions
-Acknowledgment
-References
+
 Introduction:
 The Android operating system has become the most widely used mobile platform globally, making it an attractive target for malicious actors seeking to exploit vulnerabilities and compromise users' devices. As the number of Android malware instances continues to rise, there is an urgent need for effective detection and classification techniques that can protect users from these threats.
 
@@ -40,11 +31,13 @@ App permissions serve as crucial features for classifying Android applications a
 Conclusion:
 The research provides insights into understanding and preventing Android malware, emphasizing the role of app permissions and machine learning algorithms in detecting and preventing malware attacks.
 
-Contributions:
-Both authors made significant contributions to the project, including data preprocessing, analysis, and implementation of machine learning models for static and dynamic analysis.
 
-Acknowledgment:
-The authors acknowledge the guidance and support of Prof. Binghui Wang and the anonymous reviewers in developing this research project.
 
-References:
-The references cited in this research paper provide additional context and background information on Android malware analysis.
+
+![Capture7](https://github.com/Rustyryan-11/Projects/assets/44802832/b288e4cc-985e-4078-af44-c9a7873f14ff)
+![Capture6](https://github.com/Rustyryan-11/Projects/assets/44802832/717d4ff2-2c28-4a51-96bf-6f760c55a7bf)
+![Capture5](https://github.com/Rustyryan-11/Projects/assets/44802832/b046d4de-7f21-4692-84bc-228897e5fb2d)
+![Capture4](https://github.com/Rustyryan-11/Projects/assets/44802832/f642368e-2a1d-4332-900f-14e78833d426)
+![Capture3](https://github.com/Rustyryan-11/Projects/assets/44802832/04ed31ba-c033-4b1e-829d-2d130cf13313)
+![Capture2](https://github.com/Rustyryan-11/Projects/assets/44802832/22db6fdf-4021-47d1-a9d5-6e1ec7e25548)
+![Capture 1](https://github.com/Rustyryan-11/Projects/assets/44802832/9926d4e7-f11e-43fb-a32f-bb99f6ee2ec3)
