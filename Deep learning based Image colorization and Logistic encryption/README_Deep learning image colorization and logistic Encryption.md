@@ -26,16 +26,16 @@ Visualization:
 Displayed the original grayscale image, encrypted images, and decrypted images using matplotlib.
 
 ### Problems Addressed
-## Security: Protecting sensitive image data from unauthorized access or tampering.
-## Data Integrity: Ensuring that encrypted images can be accurately decrypted without compromising data integrity.
-## Regulatory Compliance: Adhering to regulatory requirements regarding the encryption of sensitive data.
+1. Security: Protecting sensitive image data from unauthorized access or tampering.
+2.Data Integrity: Ensuring that encrypted images can be accurately decrypted without compromising data integrity.
+3. Regulatory Compliance: Adhering to regulatory requirements regarding the encryption of sensitive data.
 
 ### Considerations
-## Key Management: Ensure proper management of encryption keys to maintain security.
-## Algorithm Selection: Use well-established and cryptographically secure encryption algorithms.
-## Performance Overhead: Be mindful of computational overhead introduced by encryption and decryption processes, especially in real-time applications.
-## Data Integrity: Verify that encrypted images can be decrypted accurately to preserve data integrity.
-## Regulatory Compliance: Ensure compliance with regulatory requirements regarding data encryption.
+1. Key Management: Ensure proper management of encryption keys to maintain security.
+2. Algorithm Selection: Use well-established and cryptographically secure encryption algorithms.
+3. Performance Overhead: Be mindful of computational overhead introduced by encryption and decryption processes, especially in real-time applications.
+4. Data Integrity: Verify that encrypted images can be decrypted accurately to preserve data integrity.
+5. Regulatory Compliance: Ensure compliance with regulatory requirements regarding data encryption.
 
 
 ## Future Work
