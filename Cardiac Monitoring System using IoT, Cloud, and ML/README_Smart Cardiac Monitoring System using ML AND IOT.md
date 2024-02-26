@@ -1,4 +1,4 @@
-Smart Cardiac Monitoring System using ML AND IOT
+## Smart Cardiac Monitoring System using ML AND IOT
 
 ## Objective
 The objective of the Smart Cardiac Monitoring System was to develop a wearable device equipped with sensors for continuous monitoring of various health parameters related to cardiac health, such as heart rate, temperature, and motion. The collected data was transmitted to a cloud server for analysis. Machine learning algorithms were then employed to predict and detect abnormalities or signs of heart diseases, enabling early clinical alerts and intervention.
