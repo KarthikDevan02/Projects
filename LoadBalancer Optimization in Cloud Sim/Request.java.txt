@@ -1,3 +1,0 @@
-public class Request {
-    // Request attributes and methods
-}
