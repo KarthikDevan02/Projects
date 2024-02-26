@@ -1,36 +1,70 @@
-Role-Based Access Control (RBAC) with Keycloak, OPA, and Flask
+Image Encryption for Facial Recognition Systems
+Overview
+This project explores the use of image encryption techniques to enhance the security of facial recognition systems. By encrypting images, we aim to protect sensitive data from unauthorized access and tampering.
 
 
-This project demonstrates Role-Based Access Control (RBAC) implementation using Keycloak, Open Policy Agent (OPA), and Flask. It allows access to protected resources based on user roles and permissions defined in Keycloak, with additional access control enforcement through OPA.
+Data Preparation:
 
-Project Structure
-The project consists of the following files:
+Loaded a grayscale image of Lena.
+Reshaped the grayscale image to a suitable format for processing.
+Autoencoder Training:
 
-keycloak_config.py: Configuration file for Keycloak integration.
-opa_integration.py: Integration with Open Policy Agent for access control enforcement.
-logging_config.py: Configuration file for logging access attempts and errors.
-app.py: Main Flask application for providing access to protected resources.
-Usage
-Ensure you have Keycloak, OPA, and Flask installed and configured in your environment.
-Replace the placeholder values in keycloak_config.py with your actual Keycloak configuration (client ID, realm name, and client secret key).
-Adjust the OPA server URL in opa_integration.py according to your OPA setup.
-Run the Flask application using python app.py.
-Access the protected resources using appropriate access tokens.
+Utilized a convolutional autoencoder model to compress and reconstruct the grayscale image.
+Trained the autoencoder model for a specified number of epochs using mean squared error (MSE) loss and the Adam optimizer.
+
+Image Encryption:
+
+Implemented a logistic encryption algorithm using logistic maps and a provided key.
+Encrypted the Lena image using the logistic encryption algorithm with different keys.
+
+Image Decryption:
+
+Implemented a corresponding decryption algorithm using logistic maps and the same key used for encryption.
+Decrypted the encrypted Lena images to obtain the original images.
+Visualization:
+
+Displayed the original grayscale image, encrypted images, and decrypted images using matplotlib.
+
+Problems Addressed
+Security: Protecting sensitive image data from unauthorized access or tampering.
+Data Integrity: Ensuring that encrypted images can be accurately decrypted without compromising data integrity.
+Regulatory Compliance: Adhering to regulatory requirements regarding the encryption of sensitive data.
+Considerations
+Key Management: Ensure proper management of encryption keys to maintain security.
+Algorithm Selection: Use well-established and cryptographically secure encryption algorithms.
+Performance Overhead: Be mindful of computational overhead introduced by encryption and decryption processes, especially in real-time applications.
+Data Integrity: Verify that encrypted images can be decrypted accurately to preserve data integrity.
+Regulatory Compliance: Ensure compliance with regulatory requirements regarding data encryption.
 
 
-Implementation 
-1.Keycloak is used for user authentication and management of roles and permissions.
-2.OPA is employed to enforce fine-grained access control policies based on user context and attributes.
-3. Logging is configured to record access attempts, errors, and warnings for auditing and monitoring purposes.
+Future Work
+Explore advanced encryption techniques to enhance security.
+Optimize performance for real-time applications.
+Conduct further testing and validation to ensure robustness and compliance.
 
-Keycloak Integration
-Keycloak serves as the identity and access management system, offering features such as user authentication, role-based authorization, and user management. By integrating Keycloak into the application, we leverage its capabilities to authenticate users and manage their roles and permissions.
 
-Open Policy Agent (OPA)
-OPA acts as the policy engine, enabling fine-grained access control and policy enforcement based on user attributes, roles, and permissions. By defining policies in OPA, we can enforce access control rules dynamically and centrally manage access policies across different services and resources.
+Dependencies
+Python 3.x
+NumPy
+Matplotlib
+TensorFlow/Keras (for autoencoder training)
 
-Flask Application
-The Flask application serves as the backend service responsible for providing access to protected resources. It interacts with Keycloak for user authentication, OPA for access control enforcement, and logs access attempts and errors for auditing and monitoring purposes.
+![Capture9](https://github.com/Rustyryan-11/Projects/assets/44802832/3e716ed3-fd8e-45ce-94fe-4090177638e4)
 
-Conclusion
-The RBAC implementation with Keycloak, OPA, and Flask provides a flexible and scalable solution for managing access control in modern applications. By leveraging the capabilities of Keycloak for user management, OPA for policy enforcement, and Flask for application logic, organizations can ensure secure access to resources while maintaining flexibility and scalability in their systems.
+Encryption output:
+![Capture 10](https://github.com/Rustyryan-11/Projects/assets/44802832/65d10968-7289-48b8-830f-1ff396f6928d)
+Decryption output:
+![Capture9](https://github.com/Rustyryan-11/Projects/assets/44802832/3e716ed3-fd8e-45ce-94fe-4090177638e4)
+
+![Capture  8](https://github.com/Rustyryan-11/Projects/assets/44802832/42c09de0-7d93-40b2-a9f1-66b36846e322)
+Encryption output:
+![Capture 10](https://github.com/Rustyryan-11/Projects/assets/44802832/65d10968-7289-48b8-830f-1ff396f6928d)
+Decryption output:
+![Capture  8](https://github.com/Rustyryan-11/Projects/assets/44802832/42c09de0-7d93-40b2-a9f1-66b36846e322)
+
+
+![Capture 12](https://github.com/Rustyryan-11/Projects/assets/44802832/9abdd0c2-8298-4901-b168-0b41690a7680)
+Encryption output:
+![Capture 10](https://github.com/Rustyryan-11/Projects/assets/44802832/65d10968-7289-48b8-830f-1ff396f6928d)
+Decryption output:
+![Capture 12](https://github.com/Rustyryan-11/Projects/assets/44802832/9abdd0c2-8298-4901-b168-0b41690a7680)
