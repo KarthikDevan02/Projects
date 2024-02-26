@@ -3,7 +3,8 @@ from keycloak_config import keycloak_openid
 from opa_integration import check_authorization
 import logging_config
 
-app = Flask(__name__)
+# Define the Flask application with the name "SecureAPI"
+app = Flask("SecureAPI")
 
 # Dummy SQL database to store roles and permissions
 sql_db = {
