@@ -52,19 +52,28 @@ TensorFlow/Keras (for autoencoder training)
 ![Capture9](https://github.com/Rustyryan-11/Projects/assets/44802832/3e716ed3-fd8e-45ce-94fe-4090177638e4)
 
 Encryption output:
+
 ![Capture 10](https://github.com/Rustyryan-11/Projects/assets/44802832/65d10968-7289-48b8-830f-1ff396f6928d)
+
 Decryption output:
 ![Capture9](https://github.com/Rustyryan-11/Projects/assets/44802832/3e716ed3-fd8e-45ce-94fe-4090177638e4)
 
 ![Capture  8](https://github.com/Rustyryan-11/Projects/assets/44802832/42c09de0-7d93-40b2-a9f1-66b36846e322)
+
 Encryption output:
 ![Capture 10](https://github.com/Rustyryan-11/Projects/assets/44802832/65d10968-7289-48b8-830f-1ff396f6928d)
+
+
 Decryption output:
 ![Capture  8](https://github.com/Rustyryan-11/Projects/assets/44802832/42c09de0-7d93-40b2-a9f1-66b36846e322)
 
 
 ![Capture 12](https://github.com/Rustyryan-11/Projects/assets/44802832/9abdd0c2-8298-4901-b168-0b41690a7680)
+
+
 Encryption output:
 ![Capture 10](https://github.com/Rustyryan-11/Projects/assets/44802832/65d10968-7289-48b8-830f-1ff396f6928d)
+
+
 Decryption output:
 ![Capture 12](https://github.com/Rustyryan-11/Projects/assets/44802832/9abdd0c2-8298-4901-b168-0b41690a7680)
